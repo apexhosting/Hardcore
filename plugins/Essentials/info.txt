@@ -1,0 +1,21 @@
+make robert fix this also:
+
+#Tags
+&6Player's Display name:&r {PLAYER}
+&6Player's user name:&r {USERNAME}
+&6IP:&r {IP}
+&6Address:&r {ADDRESS}
+&6Balance:&r {BALANCE}
+&6Unread mails:&r {MAILS}
+&6Current world:&r {WORLD}
+&6Worlds list:&r {WORLDS}
+&6Number of online players:&r {ONLINE}
+&6Number of unique players who joined the server:&r {UNIQUE}
+&6Player list:&r {PLAYERLIST}
+&6Time of server:&r {TIME}
+&6Date of server:&r {DATE}
+&6Time of world PM/AM:&r {WORLDTIME12}
+&6Time of world:&r {WORLDTIME24}
+&6Date of world:&r {WORLDDATE}
+&6Plugin list:&r {PLUGINS}
+&6Version of CraftBukkit:&r {VERSION}

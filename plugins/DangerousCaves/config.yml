@@ -1,0 +1,74 @@
+'Enable Cave-Ins ': true
+'Enable Hungering Darkness ': true
+'Enable Ambient Sounds ': true
+'Enable Cave Temperature ': true
+'Enable Cave Aging ': true
+'Enable Cave Monsters ': true
+'Enable Cave Structures ': true
+'Enable Monster Fixing ': false
+'Enable Broken Monster Deletion ': false
+'Cave Skulls ': true
+'Enable Easter Egg ': true
+'::::Higher equals lower chance!::::': ''
+'Cave Aging Chance ': 2
+'Cave Aging Change Chance ': 39
+'Cave Ambience Chance ': 4
+'Cave Walk Temp Chance ': 1449
+'Cave Break Block Temp Chance ': 1450
+'Cave-In Chance ': 399
+'Darkness Spawn Chance ': 1
+'Cave Structure Chance ': 1
+'Hungering Darkness Damage ': 200
+'Monster Spawning Highest Y ': 50
+'Monster Spawning Lowest Y ': 0
+':::::::::::::::::::::::::::::::::::': ''
+'Traps Rate ': 0
+'Buildings Rate ': 0
+'Boulder Rate ': 0
+'Pillar Rate ': 0
+'Spawn Crying Bat ': true
+'Spawn Magma Monster ': true
+'Spawn Lava Creeper ': true
+'Spawn TnT Creeper ': true
+'Spawn Watcher ': true
+'Spawn Smoke Demon ': true
+'Spawn Alpha Spider ': true
+'Spawn Dead Miner ': true
+'Spawn Hexed Armor ': true
+':::::Monster Names - no Blanks:::::': ''
+'Crying Bat = ': Crying Bat
+'Magma Monster = ': Magma Monster
+'Lava Creeper = ': Lava Creeper
+'TnT Creeper = ': TnT Infused Creeper
+'Watcher = ': Watcher
+'Smoke Demon = ': Smoke Demon
+'Alpha Spider = ': Alpha Spider
+'Dead Miner = ': Dead Miner
+'Hexed Armor = ': Hexed Armor
+'Crying Bat Chance ': 0
+'Magma Monster Chance ': 0
+'Lava Creeper Chance ': 0
+'TnT Creeper Chance ': 0
+'Watcher Chance ': 0
+'Smoke Demon Chance ': 0
+'Alpha Spider Chance ': 0
+'Dead Miner Chance ': 0
+'Hexed Armor Chance ': 0
+'Temperature Messages ':
+- Wow, it's hot down here.  I better bring something to cool myself off next time.
+- It is realllyyy hot down here.
+- I'm going to need something to cool myself off next time.
+- Is it hot in here, or is it just me?
+- I really need some ice.
+'Enabled Worlds - If Left Blank Will Just Use default world ':
+- Hardcore
+'Items that can spawn in chests ':
+- SUGAR
+- TORCH
+- DIRT
+:Below is used to store information: 1
+:Do Not Modify Anything Below This: 1
+:Doing So Can Result in Messed up Worlds: 1
+002roomx: 39837
+002roomy: 18
+002roomz: 10023

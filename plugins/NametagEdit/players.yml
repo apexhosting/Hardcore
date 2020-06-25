@@ -1,0 +1,16 @@
+Players:
+  b5ccebaa-0623-4370-af73-0ec985dfa3b0:
+    Name: sgtcazeyt
+    Prefix: '&b'
+    Suffix: '&c'
+    SortPriority: -1
+  3716427e-76ac-4df4-a50a-706618a70f0c:
+    Name: Cory
+    Prefix: Hi
+    Suffix: Hi
+    SortPriority: -1
+  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
+    Name: robert_beckley
+    Prefix: '&4&l[&cAdmin&4&l]&c'
+    Suffix: ''
+    SortPriority: -1

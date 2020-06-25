@@ -1,0 +1,187 @@
+# Settings
+# 
+# Notes in this config are lost on updates if the config file changes
+# If you would like to see the notes, delete this file and it will regenerate with notes
+# (Make sure to backup your config file)
+# 
+# Preset language file includes in-game messages, item names, lore, etc.
+# Language options are EN (English) or CN (Chinese)
+Language: EN
+MultiWorld:
+  EnableResourcePack: true
+  ResourcePackURL: https://www.dropbox.com/s/hucla3rj6qs93zd/SP-1.14v3.zip?dl=1
+  NotifyMessage: true
+LocalChatDist: -1
+NoPos: true
+WelcomeGuide:
+  Enabled: true
+  NewPlayersOnly: false
+  Delay: 5
+Survival:
+  Enabled: true
+  LimitedCrafting: false
+  BreakOnlyWith:
+    Axe: true
+    Pickaxe: true
+    Shovel: true
+    Shears: true
+    Sickle: true
+  Sickles:
+    Flint: true
+    Stone: true
+    Iron: true
+    Diamond: false
+  PlaceOnlyWith:
+    Hammer: true
+  DropRate:
+    Flint: 0.5
+    Stick: 0.25
+  Torch: true
+Mechanics:
+  Hunger:
+    Starting-Amount: 30
+    Respawn-Amount: 30
+  SharedWorkbench: true
+  BedFatigueLevel: true
+  BedFatigueRefreshTime: 30
+  FatigueLevelIncreaseChance: 70
+  Coffee: true
+  SlowArmor: true
+  ReinforcedLeatherArmor: true
+  Bow: true
+  RecurveBow: true
+  GrapplingHook: true
+  MedicalKit: true
+  ReducedIronNugget: true
+  ReducedGoldNugget: true
+  StatusScoreboard: true
+  AlertInterval: 20
+  RawMeatHunger: true
+  EmptyPotions: true
+  PoisonousPotato: true
+  CookieHealthBoost: true
+  BeetrootStrength: true
+  FoodDiversity:
+    enabled: true
+    effects:
+      carbs:
+        exhaustion-amplifier:
+          easy: 2
+          normal: 4
+          hard: 8
+      salts:
+        exhaustion-amplifier: 1
+        status-effects:
+          normal:
+            effect: WEAKNESS
+            amplifier: 0
+            duration: 20
+          hard:
+            effect: WEAKNESS
+            amplifier: 1
+            duration: 20
+      proteins:
+        exhaustion-amplifier: 1
+        status-effects:
+          normal:
+            effect: WEAKNESS
+            amplifier: 0
+            duration: 20
+          hard:
+            effect: WEAKNESS
+            amplifier: 1
+            duration: 20
+  Thirst:
+    Respawn-Amount: 30
+    Enabled: true
+    Starting-Amount: 30
+    PurifyWater: true
+    MeltSnow: true
+    DrainRate: 1.0
+    Replenish-Level:
+      beetroot-soup: 6
+      melon-slice: 6
+      mushroom-stew: 12
+      water-bowl: 10
+      coffee: 23
+      cold-milk: 15
+      hot-milk: 10
+      milk-bucket: 30
+      dirty-water: 13
+      clean-water: 18
+      purified-water: 23
+      water: 18
+  CompassWaypoint: true
+  Clownfish: true
+  FermentedSkin: true
+  LivingSlime: true
+  SnowballRevamp: true
+  SnowGenerationRevamp: true
+  FarmingProducts:
+    Bread: true
+    Cookie: true
+  Chairs:
+    Enabled: true
+    MaxChairWidth: 2
+    AllowedBlocks:
+    - OAK_STAIRS
+    - SPRUCE_STAIRS
+    - JUNGLE_STAIRS
+    - BIRCH_STAIRS
+    - ACACIA_STAIRS
+    - DARK_OAK_STAIRS
+    - SANDSTONE_STAIRS
+    - COBBLESTONE_STAIRS
+    - BRICK_STAIRS
+    - STONE_BRICK_STAIRS
+    - NETHER_BRICK_STAIRS
+    - QUARTZ_STAIRS
+    - RED_SANDSTONE_STAIRS
+    - PURPUR_STAIRS
+    - PRISMARINE_STAIRS
+    - PRISMARINE_BRICK_STAIRS
+    - DARK_PRISMARINE_STAIRS
+  BurnoutTorches:
+    Enabled: true
+    BurnoutTime: 60
+    Relightable: true
+    DropTorch: true
+    PersistentTorches: true
+Recipes:
+  Saddle: true
+  Nametag: true
+  PackedIce: true
+  LeatherBard: true
+  IronBard: true
+  GoldBard: true
+  DiamondBard: true
+  ClayBrick: true
+  QuartzBlock: true
+  WoolString: true
+  WebString: true
+  Ice: true
+  Clay: true
+  Diorite: true
+  Granite: true
+  Andesite: true
+  Gravel: true
+  Slimeball: true
+  Cobweb: true
+  SaplingToSticks: true
+  FishingRod: true
+  Furnace: true
+  Workbench: true
+LegendaryItems:
+  CanRepair: true
+  ValkyrieAxe: true
+  QuartzPickaxe: true
+  ObsidianMace: true
+  GiantBlade: true
+  BlazeSword: true
+  NotchApple: true
+  GoldArmorBuff: true
+Entity-Mechanics:
+  pigmen-chests:
+    enabled: false
+    distance: 24
+    speed-modifier: 1.3

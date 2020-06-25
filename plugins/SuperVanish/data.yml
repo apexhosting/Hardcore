@@ -1,0 +1,56 @@
+# SuperVanish v6.1.3 - Data file
+InvisiblePlayers:
+- 9749c414-52dd-4309-afad-082ec131e982
+PlayerData:
+  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
+    information:
+      name: robert_beckley
+  9749c414-52dd-4309-afad-082ec131e982:
+    information:
+      name: TreeboMC
+    itemPickUps: true
+  fcf63d8d-b2d8-4338-8a3c-f756da0eba6b:
+    information:
+      name: u_d
+    itemPickUps: false
+  fe360a70-6315-460d-b5ac-960be9d78fe8:
+    information:
+      name: Beeqo
+    itemPickUps: true
+  293c5c81-08ef-46fd-8871-7ed030762a02:
+    information:
+      name: EzClapBois
+  a8f70b3b-6701-4db9-a154-046332e3772b:
+    information:
+      name: shadowphoenixnt
+  d1008d2f-3c57-4da7-a061-702b9c6644e2:
+    information:
+      name: Kwama
+    itemPickUps: true
+  2980f786-fce8-42ed-9cde-5b985c14a1b4:
+    information:
+      name: LlamasTheName
+  1c57683f-c9e9-4eb7-b7f7-c9bcd1f5e49c:
+    information:
+      name: Beeqster
+  572b3e56-8e61-4dd1-8fb5-091905c1e76a:
+    information:
+      name: Huntwren
+  b4e6d297-cfba-469a-a423-4ffb8da70c39:
+    information:
+      name: Ch4z_
+  c0d5a1fe-81c6-4bd7-96ec-d42d5c639bdf:
+    information:
+      name: GalaxyMushroom
+  2e75cf7f-fae4-4f3e-9336-950a77bc6880:
+    information:
+      name: ShakeforProtein
+  9aefba98-c084-4bae-91b5-36ab2d21c0e2:
+    information:
+      name: SonOfOdin001
+  6fdfe48d-1a25-4c20-84b2-98a8a3e0b98d:
+    information:
+      name: C4_Demon
+  85682217-c609-47a2-9fd9-8ae2408a7ac0:
+    information:
+      name: DragnLord

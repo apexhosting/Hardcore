@@ -1,0 +1,44 @@
+# This is the Message file for all Counting Game messages.
+# 
+# All messages are fully customizable and support color codes, formatting and ASCII symbols.
+# Set the Prefix and use %prefix% to add the corresponding prefix to a message.
+# Prepend any message with <ActionBar> to send it as an ActionBar message.
+# Leave a message blank ('') to disable it.
+# 
+# You can also create messages with Hover and Click events. Syntax options: (Space between comma and quote is NOT allowed)
+#  - ["Message","/Command"]
+#  - ["Message","Hover"]
+#  - ["Message","/Command","Hover"]
+#  - ["Message","/Command","Suggest"]
+#  - ["Message","/Command","Hover","Suggest"]
+# You can add as many events to a message as you want. Example:
+# '%prefix% &cInvalid arguments! ["&c&n&oHelp","/countinggame help","&aClick to get help!"]'
+# The "Suggest" tag is used if the click event should suggest the command. Default is Run.
+
+Prefix: '&2&l[&aCounter&2&l]'
+Messages:
+  General:
+    InvalidPermission: '%prefix% &cYou do not have permission to do this!'
+    NoCommands: Unknown command. Type "/help" for help.
+    UnknownPlayer: '%prefix% &cUnknown Player!'
+    PlayerOnly: '%prefix% &cCommand can only be used as a Player!'
+    InvalidArguments: '%prefix% &cInvalid arguments! ["&c&n&oHelp","/countinggame
+      help","&aClick to get help!"]'
+  CountingGame:
+    CountSent: '%prefix% &c%player%&3 counted &2%number%! &3The next number is &2%nextNumber%!'
+    LastCounter: '%prefix% &cAnother player has to count before you can again!'
+    IdleBroadcast: '%prefix% ["&3Get counting! The next number is &2%nextNumber%!","&3Type
+      &2%nextNumber% &3in chat!"]'
+    Muted: '%prefix% &aCounting Game muted!'
+    MutedPlayer: '%prefix% &aMuted Counting Game for %player%!'
+    AlreadyMuted: '%prefix% &cYou''re already muted!'
+    AlreadyMutedPlayer: '%prefix% &c%player% is already muted!'
+    Unmuted: '%prefix% &aCounting Game unmuted!'
+    UnmutedPlayer: '%prefix% &aUnmuted Counting Game for %player%!'
+    NotMuted: '%prefix% &cYou''re not muted!'
+    NotMutedPlayer: '%prefix% &c%player% is not muted!'
+    NextNumber: '%prefix% &eThe next number is &a%nextNumber%!'
+  Admin:
+    ConfigurationsReloaded: '%prefix% &aGG Config files successfully reloaded! If
+      it breaks blame Shake'
+    CountSet: '%prefix% &aThe count has been set to %number%!'
