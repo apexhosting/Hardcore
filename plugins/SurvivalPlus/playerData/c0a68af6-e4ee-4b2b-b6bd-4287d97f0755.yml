@@ -2,12 +2,13 @@ player-data:
   ==: tk.shanebee.survival.data.PlayerData
   uuid: c0a68af6-e4ee-4b2b-b6bd-4287d97f0755
   thirst: 30
-  fatigue: 0
+  energy: 20.0
   nutrients.proteins: 240
   nutrients.carbs: 960
   nutrients.salts: 360
   local-chat: false
   score.hunger: false
   score.thirst: false
-  score.fatigue: false
+  score.energy: true
   score.nutrients: false
+  compass: {}

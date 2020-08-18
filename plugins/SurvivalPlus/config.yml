@@ -37,15 +37,13 @@ Survival:
     Flint: 0.5
     Stick: 0.25
   Torch: true
+  Unlock-all-recipes-on-join: false
+  UpdateMerchantTrades: true
 Mechanics:
   Hunger:
     Starting-Amount: 30
     Respawn-Amount: 30
   SharedWorkbench: true
-  BedFatigueLevel: true
-  BedFatigueRefreshTime: 30
-  FatigueLevelIncreaseChance: 70
-  Coffee: true
   SlowArmor: true
   ReinforcedLeatherArmor: true
   Bow: true
@@ -91,6 +89,10 @@ Mechanics:
             effect: WEAKNESS
             amplifier: 1
             duration: 20
+    max-level:
+      carbs: 50000
+      salts: 50000
+      proteins: 50000
   Thirst:
     Respawn-Amount: 30
     Enabled: true
@@ -111,7 +113,12 @@ Mechanics:
       clean-water: 18
       purified-water: 23
       water: 18
-  CompassWaypoint: true
+      honey-bottle: 16
+      other-water: 0
+    DamageRate: 1.0
+  CompassWaypoint:
+    enabled: true
+    per-world: true
   Clownfish: true
   FermentedSkin: true
   LivingSlime: true
@@ -147,6 +154,15 @@ Mechanics:
     Relightable: true
     DropTorch: true
     PersistentTorches: true
+  Prevent-Night-Skip: false
+  Energy:
+    enabled: true
+    warning: true
+    drain-rate: 0.015
+    sleeping-refresh-rate: 0.83
+    chair-refresh-rate: 0.25
+    exhaustion: 0.15
+    coffee: true
 Recipes:
   Saddle: true
   Nametag: true
@@ -185,3 +201,13 @@ Entity-Mechanics:
     enabled: false
     distance: 24
     speed-modifier: 1.3
+  beekeeper-suit:
+    enabled: true
+  suspicious-meat:
+    enabled: true
+    chance: 15
+  chicken-breeding:
+    enabled: true
+    max-eggs: 4
+    always-baby: true
+    baby-ticks: 48000

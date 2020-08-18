@@ -1,18 +1,18 @@
 Info:
-  location: world, -668.511, 67.200, 472.398
+  location: Hardcore_world, -668.511, 67.200, 472.398
   lines:
   - 'ICON: book'
   - '&3&lUse /warp info'
   - '&2&lFor usefull tips'
 Welcome:
-  location: world, -668.458, 67.200, 465.338
+  location: Hardcore_world, -668.458, 67.200, 465.338
   lines:
   - 'ICON: diamond sword'
   - '&4&lWelcome To Hardcore {player}'
   - '&2&lGo to bit.ly/2ZW8xXZ to get more info'
   - '&3&lDo /WILD to get started'
 Textures:
-  location: world, -668.511, 67.200, 458.540
+  location: Hardcore_world, -668.511, 67.200, 458.540
   lines:
   - '&5&lMake sure to use the'
   - '&b&lServer resoure pack' 
