@@ -1,6 +1,6 @@
 spawns: 
   default: 
-    world: world
+    world: Hardcore_world
     x: -668.4027214831542
     y: 63.1875
     z: 465.37941596546926

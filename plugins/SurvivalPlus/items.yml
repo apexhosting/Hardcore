@@ -1,0 +1,120 @@
+# ITEMS
+# 
+# This file holds certain properties for custom items
+# Only change it if you know what you're doing
+
+items:
+  hatchet:
+    model_data: 1
+  mattock:
+    model_data: 1
+  shiv:
+    model_data: 1
+  hammer:
+    model_data: 1
+  firestriker:
+    model_data: 1
+  grappling_hook:
+    model_data: 1
+  compass:
+    model_data: 1
+  flint_sickle:
+    model_data: 4
+  stone_sickle:
+    model_data: 2
+  iron_sickle:
+    model_data: 1
+  diamond_sickle:
+    model_data: 1
+  medic_kit:
+    model_data: 1
+  recurve_bow:
+    model_data: 1
+  recurve_crossbow:
+    model_data: 1
+  valkyries_axe:
+    model_data: 1
+  quartz_pickaxe:
+    model_data: 1
+  obsidian_mace:
+    model_data: 1
+  ender_giant_blade:
+    model_data: 2
+  blaze_sword:
+    model_data: 1
+  reinforced_leather_boots:
+    model_data: 1
+  reinforced_leather_tunic:
+    model_data: 1
+  reinforced_leather_trousers:
+    model_data: 1
+  reinforced_leather_helmet:
+    model_data: 1
+  golden_sabatons:
+    model_data: 0
+  golden_guard:
+    model_data: 0
+  golden_greaves:
+    model_data: 0
+  golden_crown:
+    model_data: 0
+  iron_boots:
+    model_data: 0
+  iron_chestplate:
+    model_data: 0
+  iron_leggings:
+    model_data: 0
+  iron_helmet:
+    model_data: 0
+  diamond_boots:
+    model_data: 0
+  diamond_chestplate:
+    model_data: 0
+  diamond_helmet:
+    model_data: 0
+  diamond_leggings:
+    model_data: 0
+  beekeeper_helmet:
+    model_data: 10881
+  beekeeper_chestplate:
+    model_data: 10881
+  beekeeper_leggings:
+    model_data: 10881
+  beekeeper_boots:
+    model_data: 10881
+  workbench:
+    model_data: 0
+  campfire:
+    model_data: 1
+  fermented_skin:
+    model_data: 0
+  coffee_bean:
+    model_data: 1
+  suspicious_meat:
+    model_data: 10881
+  dirty_water:
+    model_data: 1
+  clean_water:
+    model_data: 2
+  purified_water:
+    model_data: 3
+  coffee:
+    model_data: 4
+  hot_milk:
+    model_data: 5
+  cold_milk:
+    model_data: 6
+  water_bowl_old:
+    model_data: 1
+  water_bowl:
+    model_data: 10881
+  persistent_torch:
+    model_data: 1
+  netherite_helmet:
+    model_data: 0
+  netherite_chestplate:
+    model_data: 0
+  netherite_leggings:
+    model_data: 0
+  netherite_boots:
+    model_data: 0

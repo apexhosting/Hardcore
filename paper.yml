@@ -59,6 +59,9 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    seed-based-feature-search: true
+    portal-create-radius: 16
+    entities-target-with-follow-range: false
     per-player-mob-spawns: false
     fix-zero-tick-instant-grow-farms: true
     disable-teleportation-suffocation-check: false
