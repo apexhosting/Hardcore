@@ -1,5 +1,5 @@
 # Hardcore
-![alt text](https://apexminecrafthosting.com/wp-content/uploads/2019/09/Hardcore-Gamemode-1.png)
+![alt text](https://apex-misc.s3.amazonaws.com/Images/Hardcore+Thumbnail.png)
 Normal Minecraft survival has been around since day one, so we have decided its time to make it harder and more interesting. This pack has everything from Custom textures to Custom crafting. There is many changes so make sure to read about them all.
 
 https://apexminecrafthosting.com/hardcore-server/
