@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1]
+
+### Changed
+- Remove Editable Signs
+- Update Core Protect from version 19.1 to 19.2
+- Update Dangerous Caves from version 2.2.9 to 2.2.10
+- Update EssentialsX from version 2.18.0 to 2.18.1
+- Update LibsDisguises from version 10.0.15 to 10.0.16
+- Update ProtocolLib from 4.5.1 Build 476 to 4.5.1 Build 478
+- Update Survival Plus from version 3.12.4 to 3.13.1
+
 ## [2.0]
 
 ### Added
@@ -39,5 +50,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Nothing
 
+[2.1]: https://github.com/apexhosting/Hardcore/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/Hardcore/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/Hardcore/releases/tag/1.0

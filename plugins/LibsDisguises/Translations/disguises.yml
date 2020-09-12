@@ -481,3 +481,6 @@
 
 # Used for the disgiuse modify radius command to list all disguisetypes
 "DisgiseType": "DisgiseType"
+
+# Name for the PIGLIN_BRUTE disguise
+"Piglin Brute": "Piglin Brute"

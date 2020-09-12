@@ -4339,3 +4339,15 @@
 
 # Used for the disguise option SoundGroup
 "ZOMBIIFIED_PIGLIN": "ZOMBIIFIED_PIGLIN"
+
+# A disguise option name, has description The block data states, barrel[facing=north,open=false] as example
+"BlockData": "BlockData"
+
+# A disguise option descriptive name
+"BlockData[State=Something]": "BlockData[State=Something]"
+
+# Description for the disguise option BlockData
+"The block data states, barrel[facing=north,open=false] as example": "The block data states, barrel[facing=north,open=false] as example"
+
+# Used for the disguise option SoundGroup
+"PIGLIN_BRUTE": "PIGLIN_BRUTE"

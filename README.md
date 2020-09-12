@@ -8,7 +8,6 @@ https://apexminecrafthosting.com/hardcore-server/
 [Advanced Achievements](https://www.spigotmc.org/resources/advanced-achievements.6239/)
 [Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)
 [Dangerous Caves 2](https://www.spigotmc.org/resources/dangerous-caves-2-make-your-caves-scary-1-12-2-1-16-2.76212)
-[Editable Sign](https://www.spigotmc.org/resources/editablesign.2502/)
 [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)
 [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
 [Lib's Disguises](https://www.spigotmc.org/resources/libs-disguises-free.81/)
