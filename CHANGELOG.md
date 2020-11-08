@@ -1,6 +1,24 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.2]
+
+### Changed
+- Update to 1.16.4
+- Added Custom server icon
+- Fixed issues with the /wild not working 
+- Added Nexel Wilderness
+- Added Server List Plus
+- Updated Advanced Achievements from 6.2.0 to 6.7.1
+- Update Core Protect from 19.2 to 19.3
+- Update Dangerous Caves 2 from 2.2.10 to 2.2.11 
+- Update Holographic Displays from 2.4.4 to 2.4.5
+- Update Lib's Disguises from 10.0.16 to 10.0.18
+- Update ProtocolLib from 4.5.1 Build 478 to 4.6.0 Build 482
+- Update Survival Plus from 3.12.4 to 3.14.0
+- Update World Edit from 7.2.0 Beta 4 to 7.2.0
+- Update World Guard from 7.0.4 Beta 1 to 7.0.4
+
 ## [2.1]
 
 ### Changed
@@ -47,9 +65,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
-### Changed
-- Nothing
 
+[2.2]: https://github.com/apexhosting/Hardcore/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/Hardcore/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/Hardcore/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/Hardcore/releases/tag/1.0
