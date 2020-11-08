@@ -517,3 +517,18 @@
 
 # Found in the disguise options for FallingBlock and uses a BlockData
 "setBlockData": "setBlockData"
+
+# Found in the disguise options for Entity and uses a Float
+"setPitchLock": "setPitchLock"
+
+# Found in the disguise options for Entity and uses a boolean
+"setPitchLocked": "setPitchLocked"
+
+# Found in the disguise options for Entity and uses a Float
+"setYawLock": "setYawLock"
+
+# Found in the disguise options for Entity and uses a boolean
+"setYawLocked": "setYawLocked"
+
+# Found in the disguise options for Entity and uses a float
+"setYModifier": "setYModifier"

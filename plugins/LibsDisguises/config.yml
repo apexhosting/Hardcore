@@ -27,7 +27,7 @@ Permissions:
   # FALSE = No one can see this without permissions to allow it
   # OP = Only operators can see this
   # NOT_OP = Only non operators can see this
-  SeeCommands: TRUE
+  SeeCommands: true
 
 # Some disguises have randomized options on disguise, such as a fox type or a villager breed.
 # This may be problematic for some server owners, so you can disable it below
@@ -76,10 +76,11 @@ SaveDisguises:
 # ARMORSTANDS - Names are limited to 256 chars, uses a mix of armorstands and teams to do this. Slightly hacky.
 # Downside of armorstand names is that there's a chance of it becoming desynced from the player disguise
 # And names will always display even if the entity is invisible using potion effects
-PlayerNames: TEAMS
+PlayerNames: 'TEAMS'
 
 # If doing ARMORSTANDS in the above option, should CustomNames be overridden to use armorstands too?
-# This allows multiline names
+# This allows multiline names if you have purchased the plugin
+# Use \n for a new line, though if you're doing it in a config you may need to use \\n as " and ' are treated differently.
 OverrideCustomNames: true
 
 # How many ticks before tab packet is sent to remove from tablist. This shouldn't need to be touched
@@ -98,7 +99,7 @@ Translations: false
 # MODIFY_SCOREBOARD - Modifies the player's current team if possible, otherwise assigns them to a new scoreboard team.
 # IGNORE_SCOREBOARD - Doesn't touch scoreboards at all, effectively means that if you didn't disable pushing in their scoreboard team; They will still be pushed around
 # CREATE_SCOREBOARD - Creates a new team which copies the attributes of their previous scoreboard team which they are then assigned to. This means they keep nametag color and other options.
-SelfDisguisesScoreboard: MODIFY_SCOREBOARD
+SelfDisguisesScoreboard: 'MODIFY_SCOREBOARD'
 
 # More options in case you want to disable a specific setting of the scoreboard
 Scoreboard:
@@ -109,6 +110,9 @@ Scoreboard:
   # Should the scoreboard warn you if it detects a potential conflict?
   # If self disguises are disabled, or the scoreboard is using IGNORE_SCOREBOARD then this does nothing.
   WarnConflict: true
+  # When disguising as a player, should the prefix/suffix of the player disguise name copy the team info?
+  # Only takes effect if using PlayerNames TEAMS or ARMORSTANDS
+  CopyPlayerTeamInfo: true
 
 # Shall I notify those with the correct permission when there's a LibsDisguises update?
 # Disabling this will also disable notifications when the plugin updated
@@ -120,7 +124,7 @@ AutoUpdate: true
 # SAME_BUILDS - Will check snapshots if you're not using a release build
 # RELEASES - Only check for actual releases
 # SNAPSHOTS - Only check for new snapshots
-UpdatesBranch: SAME_BUILDS
+UpdatesBranch: 'SAME_BUILDS'
 
 # Whats the max size allowed for command disguiseradius
 DisguiseRadiusMax: 50
@@ -149,12 +153,12 @@ HearSelfDisguise: true
 # The message can be customized in translations
 # BOSS_BAR is not supported in 1.12!
 # NONE, BOSS_BAR, ACTION_BAR
-NotifyBar: ACTION_BAR
+NotifyBar: 'ACTION_BAR'
 # If using boss bar, these two options come into play
 # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/boss/BarColor.html
-BossBarColor: GREEN
+BossBarColor: 'GREEN'
 # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/boss/BarStyle.html
-BossBarStyle: SOLID
+BossBarStyle: 'SOLID'
 
 # By the default the plugin saves the users of the /viewdisguisebar and /viewselfdisguises to a file
 # So that it persists after restart
@@ -201,6 +205,12 @@ ShowNamesAboveDisguises: false
 # This supports the above option.
 # If this is true, then the name shown above the head appears regardless of if you are looking at the disguise directly or not.
 NameAboveHeadAlwaysVisible: true
+
+# What should the name be shown as?
+# Two placeholders can be used.
+# %simple% = The very basic name, 'libraryaddict'
+# %complex% = Name will be grabbed from scoreboard or display name if scoreboard fails.
+NameAboveDisguise: '%complex%'
 
 # This modifies the bounding box, This is stuff like can a arrow hit them.
 # If you turn this to true, arrows will act like they hit the disguise in the right place!
@@ -278,7 +288,7 @@ ShowPlayerDisguisesInTab: false
 
 # On player disguise, a fake player is added to tablist so the skin can load properly.
 # This option is ignored if 'ShowPlayerDisguisesInTab' is enabled.
-# 2 ticks should easily be enough.
+# 3 ticks should easily be enough.
 PlayerDisguisesTablistExpires: 2
 
 # Don't like players able to set themselves invisible when using the disguise commands? Toggle this to true and no one can use setInvisible! Plugins can still use this however.
