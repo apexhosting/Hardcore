@@ -1,0 +1,119 @@
+# NexelWilderness
+# By: Nathan Diepeveen / Nexel
+# ----------------------------------
+
+
+
+# The prefix is visible in front of a command reply. To use a color, type & followed by the color number. 
+# For example: &a = Green.
+prefix: '&5&lNexel&f&lWilderness &7&l>'
+
+# The menuprefix is visible in menu's.
+menuprefix: 'NexelWilderness'
+
+# The size is the size of the wild region. Devide the size by 2 for the amount on the positive and negative side.
+# For example: 10000 is from 5000 to -5000.
+size: 10000
+
+# The teleport delay is the amount of seconds it takes before teleporting. During that period the person should not move.
+teleportDelay: 3
+
+# The teleport cooldown is the time players have to wait before being able to wild again. The time is in seconds.
+wildCooldown: 30
+# Advanced biomes require you to add every biome from a group seperately.
+# When false, DESERT will include DESERT_HILLS, DESERT_MOUNTAINS, etc.
+# When true, all of them have to be added seperately.
+advancedBiomes: false
+
+# The biome picker allows users to pick a biome to teleport to. 
+# Enabled by default.
+biomePicker: true
+
+# The amount of retries is how much times the plugin will retry looking for the biome before giving up.
+# Higher numbers could result in higher TPS (More lag)
+# Lower numbers could result in not (or less often) finding the correct biome and thus giving an error.
+retries: 150
+
+# The following list contains all Biomes. The names are modified and then visible in menu's. 
+# For example: 'DESERT_HILLS' becomes 'Desert hills'. Underscores become whitespaces and everything is lower-case except the first letter.
+
+# The Biomes are in the following order: <Biome>: <Icon>
+# <Icon> is the block visible in the main Wild menu. Use something that fits the biome.
+# Default Biomes:
+#  DESERT: SAND
+#  TAIGA: DIRT
+#  JUNGLE: MOSSY_COBBLESTONE
+#  PLAINS: GRASS
+Biomes:
+  DESERT: SAND
+  TAIGA: DIRT
+  JUNGLE: MOSSY_COBBLESTONE
+  PLAINS: GRASS
+
+# These messages are visible when for example commands are executed. 
+# The placeholders only work in the message they're used in. So %wildsize% is unusable in noSafeSpot.
+wildSizeSet: '&aSuccesfully set the wild limit to&l %wildsize%'
+noBlacklistedBlocks: '&7None. Use&l /wild blacklist add <block> &7to add one.'
+removeBlacklistedBlock: '&7Use&l /wild blacklist remove <block> &7to remove one.'
+blockDoesntExist: '&cThis block does not exist! Use: EMERALD_BLOCK, DIRT, etc.'
+biomeDoesntExist: '&cThis biome does not exist! Use: DESERT, DESERT_HILLS, etc.'
+succesfullBlacklist: '&aSuccesfully blacklisted&l %blacklistedblock%&a. Players can''t teleport on this block with /wild.'
+removedFromBlacklist: '&aSuccesfully removed&l %removedblock% &afrom blacklist. Players can now teleport on this block.'
+insufficientDetails: '&cYou provied insufficient details! Usage:&l %usage%'
+noPermissions: '&cYou don''t have permissions to use this command!'
+succesfullReload: '&aReloaded the plugin and it''s configuration!'
+noSafeSpot: '&cPlease try again. No safe spot found.'
+noBiomeSpot: '&cOh no.. We could not find a spot in this biome. Please try again later.'
+noWildAllowed: '&cYou cannot use /wild in this world!'
+biomeAdded: '&aSuccesfully added the &l%biome%&a biome with a &l%block%&a icon.'
+biomeRemoved: '&aSuccesfully removed the &l%biome%&a biome.'
+delayedTeleport: '&aTeleporting in %time%... Don''t move!'
+cooldownNotOver: '&cYou must wait %cooldown% before teleporting again!'
+interuptedTeleport: '&cYou moved! Teleportation cancelled.'
+teleporting: '&aTeleporting...'
+
+# The blacklisted worlds are not allowed to be wilded in. 
+# That is usefull in for example the nether / end or lobby worlds etc.
+# Default blacklistedWorlds: world_nether,world_the_end
+blacklistedWorlds: 'world_nether,world_the_end'
+
+# The main-menu icons can be changed to your own liking. 
+# Make sure they are in an Enum form. Capital letters are not required.
+# Default mainIcons:
+#  randomBiome: DIAMOND
+#  biomePicker: GRASS
+#  backClose: ARROW
+#  helpCommand: BOOK
+mainIcons:
+  randomBiome: DIAMOND
+  biomePicker: GRASS
+  backClose: ARROW
+  helpCommand: BOOK
+  
+# The main text is the text that display in the main menu.
+# Change it to whatever you like! 
+# Usage:
+# Key:
+# - 'Title'
+# - 'Lore line 1'
+# - 'Lore line 2'
+# - 'etc.'
+mainText:
+  randomBiome: 
+  - '&6Random biome'
+  - '&7&oClick to teleport.'
+  biomePicker: 
+  - '&aPick a biome'
+  - '&7&oClick to open biome picker.'
+  backClose: 
+  - '&cClose'
+  - '&7&oClick to close.'
+  helpCommand: 
+  - '&fUse /wild help for more options' 
+  - '&7&oClick to close and run /wild help.'
+  noBiomes:
+  - '&cNo biomes have been set.'
+  - '&7&oUse the diamond to wild to a random biome.'
+  biome:
+  - '&a%biome%' 
+  - '&7&oClick to teleport.'

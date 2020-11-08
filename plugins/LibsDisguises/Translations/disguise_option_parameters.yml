@@ -4351,3 +4351,6 @@
 
 # Used for the disguise option SoundGroup
 "PIGLIN_BRUTE": "PIGLIN_BRUTE"
+
+# Description for the disguise option Number.0
+"A number which can have decimal places or be null": "A number which can have decimal places or be null"
