@@ -118,3 +118,170 @@ items:
     model_data: 0
   netherite_boots:
     model_data: 0
+  snow_boots:
+    model_data: 10882
+  rain_boots:
+    model_data: 10883
+  breeding_egg:
+    model_data: 10885
+nutritions:
+  potato:
+    carbs: 25
+    proteins: 0
+    vitamins: 10
+  baked_potato:
+    carbs: 200
+    proteins: 0
+    vitamins: 60
+  poisonous_potato:
+    carbs: 50
+    proteins: 0
+    vitamins: 8
+  apple:
+    carbs: 50
+    proteins: 0
+    vitamins: 70
+  golden_apple:
+    carbs: 50
+    proteins: 0
+    vitamins: 70
+  enchanted_golden_apple:
+    carbs: 50
+    proteins: 0
+    vitamins: 70
+  carrot:
+    carbs: 0
+    proteins: 0
+    vitamins: 105
+  golden_carrot:
+    carbs: 0
+    proteins: 0
+    vitamins: 25
+  chorus_fruit:
+    carbs: 25
+    proteins: 0
+    vitamins: 35
+  melon_slice:
+    carbs: 25
+    proteins: 0
+    vitamins: 35
+  beetroot:
+    carbs: 0
+    proteins: 0
+    vitamins: 35
+  dried_kelp:
+    carbs: 15
+    proteins: 50
+    vitamins: 50
+  sweet_berries:
+    carbs: 40
+    proteins: 0
+    vitamins: 60
+  bread:
+    carbs: 300
+    proteins: 25
+    vitamins: 12
+  pumpkin_pie:
+    carbs: 300
+    proteins: 50
+    vitamins: 60
+  rabbit_stew:
+    carbs: 200
+    proteins: 225
+    vitamins: 240
+  mushroom_stew:
+    carbs: 0
+    proteins: 50
+    vitamins: 200
+  suspicious_stew:
+    carbs: 0
+    proteins: 50
+    vitamins: 210
+  beetroot_soup:
+    carbs: 0
+    proteins: 50
+    vitamins: 200
+  cookie:
+    carbs: 107
+    proteins: 11
+    vitamins: 3
+  cake:
+    carbs: 171
+    proteins: 114
+    vitamins: 3
+  beef:
+    carbs: 0
+    proteins: 50
+    vitamins: 0
+  cooked_beef:
+    carbs: 0
+    proteins: 200
+    vitamins: 0
+  chicken:
+    carbs: 0
+    proteins: 50
+    vitamins: 0
+  cooked_chicken:
+    carbs: 0
+    proteins: 200
+    vitamins: 0
+  mutton:
+    carbs: 0
+    proteins: 50
+    vitamins: 0
+  cooked_mutton:
+    carbs: 0
+    proteins: 200
+    vitamins: 0
+  porkchop:
+    carbs: 0
+    proteins: 50
+    vitamins: 0
+  cooked_porkchop:
+    carbs: 0
+    proteins: 200
+    vitamins: 0
+  rabbit:
+    carbs: 0
+    proteins: 50
+    vitamins: 0
+  cooked_rabbit:
+    carbs: 0
+    proteins: 200
+    vitamins: 0
+  cod:
+    carbs: 0
+    proteins: 75
+    vitamins: 0
+  cooked_cod:
+    carbs: 0
+    proteins: 225
+    vitamins: 0
+  salmon:
+    carbs: 0
+    proteins: 75
+    vitamins: 0
+  cooked_salmon:
+    carbs: 0
+    proteins: 225
+    vitamins: 0
+  pufferfish:
+    carbs: 0
+    proteins: 75
+    vitamins: 0
+  tropical_fish:
+    carbs: 0
+    proteins: 75
+    vitamins: 0
+  spider_eye:
+    carbs: 0
+    proteins: 50
+    vitamins: 0
+  rotten_flesh:
+    carbs: 0
+    proteins: 25
+    vitamins: 25
+  milk_bucket:
+    carbs: 0
+    proteins: 250
+    vitamins: 0

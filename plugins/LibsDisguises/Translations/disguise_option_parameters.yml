@@ -4354,3 +4354,12 @@
 
 # Description for the disguise option Number.0
 "A number which can have decimal places or be null": "A number which can have decimal places or be null"
+
+# Used for the disguise option SoundGroup
+"PILLAGER": "PILLAGER"
+
+# Used for the disguise option SoundGroup
+"RAVAGER": "RAVAGER"
+
+# Used for the disguise option SoundGroup
+"ZOMBIFIED_PIGLIN": "ZOMBIFIED_PIGLIN"

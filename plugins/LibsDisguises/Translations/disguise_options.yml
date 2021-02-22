@@ -532,3 +532,6 @@
 
 # Found in the disguise options for Entity and uses a float
 "setYModifier": "setYModifier"
+
+# Found in the disguise options for PlayerDisguise and uses a boolean
+"setDeadmau5Ears": "setDeadmau5Ears"

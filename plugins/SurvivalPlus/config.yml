@@ -39,6 +39,7 @@ Survival:
   Torch: true
   Unlock-all-recipes-on-join: false
   UpdateMerchantTrades: true
+  Remove-Wooden-Tools: true
 Mechanics:
   Hunger:
     Starting-Amount: 30
@@ -93,6 +94,14 @@ Mechanics:
       carbs: 50000
       salts: 50000
       proteins: 50000
+    start-level:
+      proteins: 240
+      carbs: 960
+      salts: 360
+    respawn-level:
+      proteins: 120
+      carbs: 480
+      salts: 180
   Thirst:
     Respawn-Amount: 30
     Enabled: true
@@ -116,6 +125,8 @@ Mechanics:
       honey-bottle: 16
       other-water: 0
     DamageRate: 1.0
+    HeatDrain: 30
+    NetherDrain: 30
   CompassWaypoint:
     enabled: true
     per-world: true
@@ -163,6 +174,19 @@ Mechanics:
     chair-refresh-rate: 0.25
     exhaustion: 0.15
     coffee: true
+    start-level: 20.0
+    respawn-level: 20.0
+    cold-drain-rate: 0.015
+    absorption: true
+    haste: true
+  Weather:
+    Enabled: false
+    speed:
+      base: 0.1
+      rain: 0.085
+      storm: 0.075
+      snow: 0.065
+      snowstorm: 0.05
 Recipes:
   Saddle: true
   Nametag: true
@@ -211,3 +235,9 @@ Entity-Mechanics:
     max-eggs: 4
     always-baby: true
     baby-ticks: 48000
+  piglin-barter:
+    drop-purified-water: true
+    alternate-bartering: true
+Item-Mechanics:
+  firestriker:
+    cook-time: 100
