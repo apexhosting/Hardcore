@@ -12,6 +12,7 @@
 
 config-version: 12
 settings:
+  log-named-deaths: true
   log-villager-deaths: true
   save-user-cache-on-stop-only: false
   late-bind: false
@@ -61,6 +62,9 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    simulation-distance: default
+    thunder-chance: 100000
     seed-endcity: 10387313
     seed-bastion: 30084232
     seed-fortress: 30084232
@@ -144,6 +148,10 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     growth:
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
@@ -162,3 +170,5 @@ world-settings:
       kelp-modifier: 100
   worldeditregentempworld:
     verbose: false
+players:
+  disable-saving: false

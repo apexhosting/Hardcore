@@ -484,3 +484,24 @@
 
 # Name for the PIGLIN_BRUTE disguise
 "Piglin Brute": "Piglin Brute"
+
+# Name for the AXOLOTL disguise
+"Axolotl": "Axolotl"
+
+# Name for the GLOW_ITEM_FRAME disguise
+"Glow Item Frame": "Glow Item Frame"
+
+# Name for the GLOW_SQUID disguise
+"Glow Squid": "Glow Squid"
+
+# Name for the GOAT disguise
+"Goat": "Goat"
+
+# Name for the MARKER disguise
+"Marker": "Marker"
+
+# Name for the GlowItemFrame EntityType, this is used in radius commands
+"GlowItemFrame": "GlowItemFrame"
+
+# Name for the GlowSquid EntityType, this is used in radius commands
+"GlowSquid": "GlowSquid"

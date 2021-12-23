@@ -3,8 +3,12 @@
 # Coupon 'libraryaddict' for 25% off your first invoice on any of their gaming server
 # Be sure to visit through this link! https://bisecthosting.com/libraryaddict
 Bisect-Hosted: false
-Server-IP: 199.127.60.8
+Server-IP: 51.161.132.35
 # Should the plugin be doing release or dev builds updating?
 ReleaseBuild: true
 # Make sure the plugin aint spamming update requests
 LastUpdateCheck: 0
+HittingRateLimit: false
+LastGithubETag: null
+LastPluginVersion: null
+Data: eyJ1c2VycyI6WyIwMDAwMCIsIjAwMDAxIiwiNzEzNDcyIiwiNTMyODg2Nzk2IiwiLTg1MjcyMzMyNiIsIjExMDAyNzQiLCIxMjEyMzg4IiwiNDcxMzIyIiwiODI1MjYiLCItMTAwNzA3MTUxOCIsIjY4MDU2MSIsIjMwMzU5NDk3MiJdLCJmZXRjaGVkIjoxNjQwMjgwOTQzNTc3fQ==
