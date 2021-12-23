@@ -212,7 +212,6 @@ Recipes:
   Furnace: true
   Workbench: true
 LegendaryItems:
-  CanRepair: true
   ValkyrieAxe: true
   QuartzPickaxe: true
   ObsidianMace: true

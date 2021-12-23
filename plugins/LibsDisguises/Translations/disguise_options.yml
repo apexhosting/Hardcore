@@ -354,7 +354,6 @@
 "setSize": "setSize"
 
 # Found in the disguise options for Minecart and uses a ItemStack
-"setBlockInCart": "setBlockInCart"
 
 # Found in the disguise options for Minecart and uses a int
 "setBlockOffset": "setBlockOffset"
@@ -535,3 +534,26 @@
 
 # Found in the disguise options for PlayerDisguise and uses a boolean
 "setDeadmau5Ears": "setDeadmau5Ears"
+
+# Found in the disguise options for Entity and uses a ChatColor
+"setGlowColor": "setGlowColor"
+
+# Found in the disguise options for Axolotl and uses a boolean
+"setPlayingDead": "setPlayingDead"
+
+# Found in the disguise options for GlowSquid and uses a int
+"setDarkTicksRemaining": "setDarkTicksRemaining"
+
+# Found in the disguise options for Goat and uses a boolean
+"setScreaming": "setScreaming"
+
+# Found in the disguise options for IronGolem and uses a GolemCrack
+"setCracks": "setCracks"
+
+# Found in the disguise options for Skeleton and uses a boolean
+"setConvertingStray": "setConvertingStray"
+# Found in the disguise options for Entity and uses a boolean
+"setMainHandRaised": "setMainHandRaised"
+
+# Found in the disguise options for Living Entity and uses a boolean
+"setOffhandRaised": "setOffhandRaised"
