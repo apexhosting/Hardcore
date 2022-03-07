@@ -557,3 +557,6 @@
 
 # Found in the disguise options for Living Entity and uses a boolean
 "setOffhandRaised": "setOffhandRaised"
+
+# Found in the disguise options for Entity and uses a float
+"setNameYModifier": "setNameYModifier"
