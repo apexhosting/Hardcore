@@ -1,8 +1,17 @@
-spawns: 
-  default: 
+spawns:
+  default:
     world: Hardcore_world
     x: -668.4027214831542
     y: 63.1875
     z: 465.37941596546926
     yaw: 180.0802
     pitch: 56.85013
+    world-name: ''
+  newbies:
+    world: 146c51db-b165-49dd-96e5-f93e7638b287
+    world-name: Hardcore_world
+    x: -668.4607231658148
+    y: 63.1875
+    z: 465.46067961145917
+    yaw: -179.58189392089844
+    pitch: 2.7909741401672363

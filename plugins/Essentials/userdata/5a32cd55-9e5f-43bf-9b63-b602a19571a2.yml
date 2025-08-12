@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.190.107.200
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1749853095125
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749853258349
+  login: 1749852367694
+money: '0'
+last-account-name: Chesvin1
+logoutlocation:
+  world: 146c51db-b165-49dd-96e5-f93e7638b287
+  world-name: Hardcore_world
+  x: -687.3248646051658
+  y: 85.0
+  z: 463.4245192798417
+  yaw: 57.67840576171875
+  pitch: 27.899951934814453
+lastlocation:
+  world: 146c51db-b165-49dd-96e5-f93e7638b287
+  world-name: Hardcore_world
+  x: 544.7745000682411
+  y: 65.0
+  z: 624.3584080205309
+  yaw: 41.250823974609375
+  pitch: -67.79965209960938

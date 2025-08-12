@@ -1,0 +1,16 @@
+location: Hardcore_world:-668.458:67.200:465.338
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: diamond sword'
+    height: 0.6
+  - content: '&4&lWelcome To Hardcore {player}'
+    height: 0.3
+  - content: '&3&lDo /WILD to get started'
+    height: 0.3
+  actions: {}

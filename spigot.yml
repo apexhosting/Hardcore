@@ -28,6 +28,8 @@ settings:
   netty-threads: 4
   debug: false
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -57,11 +59,19 @@ commands:
   - summon
   - testforblock
   - tellraw
+  enable-spam-exclusions: false
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
+    unload-frozen-chunks: false
+    hopper-can-load-chunks: false
+    seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
     seed-nether: 30084232
     seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
@@ -142,6 +152,7 @@ world-settings:
         flying-monsters-every: 200
         flying-monsters-for: 100
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 48
       monsters: 48
@@ -151,6 +162,8 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     growth:
+      torchflower-modifier: 100
+      pitcherplant-modifier: 100
       twistingvines-modifier: 100
       weepingvines-modifier: 100
       cavevines-modifier: 100

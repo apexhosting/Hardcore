@@ -1,0 +1,14 @@
+player-data:
+  ==: veth.vetheon.survival.data.PlayerData
+  uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+  thirst: 19
+  energy: 7.504999999999562
+  nutrients.proteins: 98
+  nutrients.carbs: 392
+  nutrients.salts: 147
+  local-chat: false
+  score.hunger: true
+  score.thirst: true
+  score.energy: true
+  score.nutrients: true
+  compass: {}

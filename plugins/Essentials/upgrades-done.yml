@@ -8,3 +8,9 @@ updateUsersHomesFormat: true
 banFormatChange: true
 userMapRepaired: true
 updateUsersIgnoreListUUID: true
+updateLegacyToAdventure: true
+newUidCacheBuilt: true
+updateUsersStupidLegacyPathNames: true
+updateUsersMailList: true
+updatePurgeBrokenNpcAccounts: true
+updateRandomTeleport: true

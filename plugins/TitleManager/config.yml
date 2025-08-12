@@ -79,8 +79,6 @@ player-list:
   # - 'My third line'
   header:
   - ''
-  - ${shine:[0;2;0][0;25;0][0;25;0][&3;&b]Apex Hardcore}
-  - ''
 
   # Sets the footer of the player list.
   #
@@ -94,10 +92,8 @@ player-list:
   # - 'My third line'
   footer:
   - ''
-  - '&3 Edit this File:'
-  - /plugins/TitleManager/config.yml
   - ''
-  - ${right-to-left} &b%{online}&7/&b%{max} &7Online Players ${left-to-right}
+  - '&b%{online}&7/&b%{max} &7Online Players'
 
 ############################################################
 # +------------------------------------------------------+ #

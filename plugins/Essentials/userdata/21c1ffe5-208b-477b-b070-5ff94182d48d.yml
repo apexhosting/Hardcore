@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 142.90.195.4
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1749852720581
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749857976708
+  login: 1749857919842
+money: '0.0'
+last-account-name: MerKaiRain
+lastlocation:
+  world: 146c51db-b165-49dd-96e5-f93e7638b287
+  world-name: Hardcore_world
+  x: -676.5
+  y: 72.0
+  z: 464.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 146c51db-b165-49dd-96e5-f93e7638b287
+  world-name: Hardcore_world
+  x: -668.4607231658148
+  y: 63.1875
+  z: 465.46067961145917
+  yaw: -178.65159606933594
+  pitch: 9.037491798400879

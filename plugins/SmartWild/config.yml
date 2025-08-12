@@ -1,0 +1,141 @@
+#Settings involving only the Random Teleporting aspect ##########
+
+wild:
+
+  #The title of the main menu
+  menu-title: "Random Teleport"
+
+  #The color of the glass in the main menu
+  menu-glass: BLACK_STAINED_GLASS_PANE
+
+  #The maxim distance to teleport the player to (only working if you don't have ChunkyBorder installed), works like a border for all teleports
+  maximum-distance: 15000
+
+  #Cooldown in seconds between random teleports (if the player teleports too many times, the waiting time will increase automaticaly to reduce spam)
+  cooldown: 10
+
+  #The time in hours in which new players have free random teleporting (set to 0 or -1 to disable)
+  beginner-time: 6
+
+  #The 3 distances the players can select. You can not add more distances, edit the available ones.
+  distances:
+    short:
+      name: "Coal"    #The name shown in the menu
+      price: 0      #The price (needs Vault to work)
+      distance: 200  #The max distance to teleport the players
+      icon: COAL      #The menu icon
+      lore:           #The lore of the menu item
+        - "Teleport distance: 200 blocks"
+    medium:
+      name: "Iron"
+      price: 0
+      distance: 500
+      icon: IRON_INGOT
+      lore:
+        - "Teleport distance: 500 blocks"
+    long:
+      name: "Diamond"
+      price: 0
+      distance: 1000
+      icon: DIAMOND
+      lore:
+        - "Teleport distance: 1000 blocks"
+
+  #The worlds in which the players can teleport randomly
+  enabled-worlds:
+    - "Hardcore_world"
+
+##################################################################
+
+biomes:
+  cooldown: 400
+  menu-title: "Teleport to biomes"
+  menu-item: ENDER_PEARL
+  menu-item-name: "Teleport to biomes"
+  menu-item-lore:
+    - "Want to go somewhere specific?"
+  options:
+    1:
+      type: BAMBOO_JUNGLE
+      price: 0
+      icon: BAMBOO
+      lore:
+        - "Teleport to the nearest Bamboo Jungle!"
+    2:
+      type: DESERT
+      price: 0
+      icon: SAND
+      lore:
+        - "Teleport to the nearest Desert!"
+    3:
+      type: FOREST
+      price: 0
+      icon: OAK_SAPLING
+      lore:
+        - "Teleport to the nearest Forest!"
+    4:
+      type: CHERRY_GROVE
+      price: 0
+      icon: CHERRY_SAPLING
+      lore:
+        - "Teleport to the nearest Cherry Grove!"
+    5:
+      type: DARK_FOREST
+      price: 0
+      icon: DARK_OAK_SAPLING
+      lore:
+        - "Teleport to the nearest Dark Forest!"
+    6:
+      type: PALE_GARDEN
+      price: 0
+      icon: PALE_OAK_SAPLING
+      lore:
+        - "Teleport to the nearest Pale Garden!"
+    7:
+      type: TAIGA
+      price: 0
+      icon: SPRUCE_SAPLING
+      lore:
+        - "Teleport to the nearest Taiga!"
+
+
+#Attention! Depending on your platform, you need to use different formatting codes!
+#For Paper users - use the new MiniMessage format, it is awesome: https://webui.adventure.kyori.net/ - not working for certain stuff
+#For Spigot or other platforms - use the old color codes (&c, &f), or use HEX like this: #80C7FDHello!
+
+messages:
+  no-money: "<dark_gray>(</dark_gray><red>❌</red><dark_gray>)</dark_gray> <white>You don't have enough money"
+  disabled-world: "<dark_gray>(</dark_gray><red>❌</red><dark_gray>)</dark_gray> <white>This command doesn't work in this world"
+  cooldown: "<dark_gray>(</dark_gray><red>❌</red><dark_gray>)</dark_gray> <white>You need to wait %time% minutes"
+  no-structures: "<dark_gray>(</dark_gray><red>❌</red><dark_gray>)</dark_gray> <white>No structures were found near you"
+  no-biomes: "<dark_gray>(</dark_gray><red>❌</red><dark_gray>)</dark_gray> <white>No biomes were found near you"
+  not-player: "<dark_gray>(</dark_gray><red>❌</red><dark_gray>)</dark_gray> <white>You need to be a player in order to use this command"
+  teleported-to-biome:
+    - " "
+    - "You were teleported to the nearest %biome% for $%price%"
+    - "Tip: If the biome isn't near you, it may be under you or above you"
+    - " "
+  teleported-to-structure:
+    - " "
+    - "You were teleported to the nearest %structure% for $%price%"
+    - "Tip: If the structure isn't near you, it may be under you or above you"
+    - " "
+  searching:
+    title: "Searching.."
+    subtitle: "Hold tight!"
+  teleported:
+    title: "You've been teleported"
+    subtitle: "X: %x%, Y: %y%, Z: %z%"
+  no-access:
+    title: "Oops!"
+    subtitle: "You don't have access to this command"
+
+#Some misc settings
+other:
+  sound: BLOCK_NOTE_BLOCK_PLING
+  particle: DRAGON_BREATH
+  blindness: false #Give blindness to players for a short amount of time on teleporting?
+  enable-structures: false
+  enable-biomes: true #Only works on Paper servers
+  simple-mode: false #Simple mode is basically, just the /wild command that teleports everyone
+  simple-mode-max-distance: 10000 #The max range of the /wild command

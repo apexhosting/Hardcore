@@ -1,0 +1,16 @@
+# If you're using BisectHosting, this will tell the server to enable premium for free!
+# However if you're not using BisectHosting, this is false so the server won't waste time
+# Coupon 'libraryaddict' for 25% off your first invoice on any of their gaming server
+# Be sure to visit through this link! https://bisecthosting.com/libraryaddict
+Bisect-Hosted: true
+Server-IP: 
+# Should the plugin be doing release or dev builds updating?
+ReleaseBuild: true
+# Make sure the plugin aint spamming update requests
+LastUpdateCheck: 0
+HittingRateLimit: false
+LastGithubETag: null
+LastPluginVersion: null
+Data: eyJ1c2VycyI6WyIwMDAwMCIsIjAwMDAxIiwiNzEzNDcyIiwiNTMyODg2Nzk2IiwiLTg1MjcyMzMyNiIsIjExMDAyNzQiLCIxMjEyMzg4IiwiNDcxMzIyIiwiODI1MjYgLSBDbGFpbXMgdG8gaGF2ZSBiZWVuIGhhY2tlZCwgYW5kIHJlY292ZXJlZCB0aGVpciBhY2NvdW50IGEgZmV3IG1vbnRocyBhZ28gMTkvMDkvMjAyMyIsIi0xMDA3MDcxNTE4IiwiNjgwNTYxIiwiMzAzNTk0OTcyIiwiMTAwNzU4IiwiLTc3ODYxMDk0NyIsIi0xNzMwMDk5NjUiLCI1MTA0NzI3NzYiLCIxMjQ4NDgyNDMxIiwiOTg4OTQ3IiwiLTQzMDcwNDI2OCIsIjE1OTIiLCIxNjMxNTU1IiwiODIyMDk3IiwiNjQ1NjgyIiwiMTQ0OTk2OTc0NyIsIjg4ODQ4MCIsIjE2ODU0NCIsIjE1MjM0NDAiLCIzODU0MDMiLCIzNTA3NzIiLCIzODQ2MjciLCIyMDgyMTAiLCIxOTY2OTkwIiwiMCIsIjQ3MzcxIiwiODI5MTc2IC0gc2F5cyBhbm90aGVyIHNlcnZlciBhZG1pbiB1cGxvYWRlZCwgbmV4dCBpcyB0aGUgc3BlY2lmaWMgZG93bmxvYWQgSUQgb2YgdGhhdCBqYXIiLCIxNTM2NDU5NjMiLCIyMTg0NTUzIiwiMSIsIjExIl0sImZldGNoZWQiOjE3NDk4NDY5NzEzNDJ9
+# When it needs to migrate configs
+LastConfigVersion: 3

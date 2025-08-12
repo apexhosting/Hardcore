@@ -1,4 +1,3 @@
-
 #==============================O==============================#
 # I---------------------------------------------------------I #
 # |   Advanced Achievements 6.2.0 configuration - Readme   | #
@@ -324,7 +323,6 @@ Kills:
       Name: kills_1_zombie
       DisplayName: The Walking Dead
       Reward:
-        Money: 1
         Item: diamond 1
   §2Skeletal Knight:
     '1':
@@ -367,7 +365,7 @@ Crafts:
       Name: craft_1_blade
       DisplayName: Blacksmith Apprentice
       Reward:
-        Money: 2
+        Item: diamond 1
     '100':
       Goal: Craft 100 swords.
       Message: Next craft, Excalibur?
@@ -789,7 +787,7 @@ Custom:
       Name: customs_votes_10
       DisplayName: Server fan
       Reward:
-        Money: 5
+        Item: diamond 1
 
 #==========================OOOO=OOOO==========================#
 # VIII-------------------------0-------------------------VIII #

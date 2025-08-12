@@ -1,0 +1,14 @@
+location: Hardcore_world:-668.511:67.200:458.540
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&5&lMake sure to use the'
+    height: 0.3
+  - content: '&b&lServer resoure pack'
+    height: 0.3
+  actions: {}
